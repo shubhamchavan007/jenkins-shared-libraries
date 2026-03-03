@@ -1,3 +1,3 @@
 def call(String name){
-    sh "docker build -t ${name} ."
+    docker build -t ${name} .
 }
